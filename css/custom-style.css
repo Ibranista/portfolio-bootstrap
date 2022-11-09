@@ -107,6 +107,12 @@
   min-height: 45em;
 }
 
+/* recent-works */
+.langs {
+  padding: 0.2em 0.5em;
+  width: fit-content;
+}
+
 /* desktop-screen */
 @media (max-width: 576px) {
   .nav-padding-x {
@@ -163,5 +169,13 @@
 
   .font-20 {
     font-size: 20px;
+  }
+
+  .card-pad {
+    padding-left: 2em !important;
+    padding-right: 8em;
+  }
+  .card-container {
+    min-width: 850px;
   }
 }
