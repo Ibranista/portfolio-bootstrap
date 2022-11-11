@@ -1,0 +1,181 @@
+/* importing google font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Meera+Inimai&display=swap");
+
+/* colors & font names */
+:root {
+  --brand-base: #ff6b00;
+  --social-links: #dbd8d7;
+  --white: #fff;
+  --transparent-white: rgba(255, 255, 255, 0.197);
+  --background: #1c1a19;
+  --navbackground: #3c3a39;
+  --langs: #8993a4;
+  --form-text: #979493;
+  --text-area: #fbf8f7;
+  --greyer-white: #f4f5f7;
+  --primary-family: "Crete Round";
+  --body-family: "Poppins";
+  --general-family: "Roboto";
+  --work-desc: "Inter";
+  --languages: "Meera Inimai";
+}
+
+/* brand color */
+
+.brand-color {
+  color: var(--brand-base);
+}
+.bg-brand {
+  background: var(--brand-base);
+}
+/* padding */
+
+.nav-padding-x {
+  padding: 0 7em;
+}
+
+.social-padding-x {
+  padding: 0 1.5em;
+}
+
+.hero-padding-x {
+  padding: 0 3.4em;
+}
+
+.top-hero {
+  padding-top: 10em;
+}
+
+/* font-family */
+.font-crete {
+  font-family: var(--primary-family);
+}
+
+.font-poppins {
+  font-family: var(--body-family);
+}
+
+.font-roboto {
+  font-family: var(--general-family);
+}
+
+.font-inter {
+  font-family: var(--work-desc);
+}
+
+.font-languages {
+  font-family: var(--languages);
+}
+
+.font-recent {
+  font-size: 3em;
+}
+
+.lady {
+  width: 100%;
+}
+
+/* hero */
+.color-greyer-white {
+  color: var(--greyer-white);
+}
+
+.hey-width {
+  max-width: 40em;
+}
+.navbar {
+  background: var(--navbackground);
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-image: none;
+  background: var(--white);
+  width: 1em;
+  height: 0.1em;
+  margin-top: 0.2em;
+}
+
+.nav-hero-wrapper {
+  min-height: 45em;
+}
+
+/* recent-works */
+.langs {
+  padding: 0.2em 0.5em;
+  width: fit-content;
+}
+
+/* desktop-screen */
+@media (max-width: 576px) {
+  .nav-padding-x {
+    padding: 0 1em;
+  }
+
+  .hero-padding-x {
+    padding: 0 1em;
+  }
+
+  .hero-top-margin {
+    margin-top: 10em;
+  }
+
+  .nav-hero-wrapper {
+    background: url("../images/background.svg") 100% 100% no-repeat;
+  }
+
+  .my-field {
+    font-weight: bold;
+  }
+
+  .font-56 {
+    font-size: 56px;
+  }
+
+  .font-24 {
+    font-size: 24px;
+  }
+
+  .font-16 {
+    font-size: 16px;
+  }
+  .doc-wrapper {
+    min-width: 300px;
+  }
+}
+
+@media (min-width: 577px) {
+  .nav-hero-wrapper {
+    background: url("../images/desktop-header.svg") 100% 100% no-repeat;
+  }
+
+  .hero-top-margin {
+    margin-top: 10em;
+  }
+  .font-72 {
+    font-size: 72px;
+  }
+
+  .font-32 {
+    font-size: 32px;
+  }
+
+  .font-20 {
+    font-size: 20px;
+  }
+
+  .card-pad {
+    padding-left: 2em !important;
+    padding-right: 8em;
+  }
+  .card-container {
+    min-width: 850px;
+  }
+}
